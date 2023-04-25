@@ -65,10 +65,11 @@ body,
 input,
 select,
 textarea {
-  font-family: "Inter", sans-serif;
   font-weight: 400;
   font-size: 0.8rem;
   line-height: 1.65;
+  color: #1e164b;
+  font-weight: 200;
 }
 
 @media screen and (max-width: 480px) {
@@ -121,6 +122,12 @@ h6 a {
   text-decoration: none;
 }
 
+h1 {
+  font-size: 2.5rem;
+  padding: 24px;
+  color: #4188ca;
+}
+
 h2 {
   font-size: 1.75rem;
 }
@@ -141,20 +148,15 @@ h6 {
   font-size: 0.7rem;
 }
 
-input,
-select,
-textarea {
-  color: #1e1f23;
-}
-
 a {
-  color: #000000;
-  text-decoration-color: #c4def9;
+  color: #4188ca;
+  font-weight: 200;
+  text-decoration-color: #c9e0f57e;
 }
 
 a:hover {
-  color: #000000;
-  text-decoration-color: #e3dec9;
+  color: #1671c7;
+  text-decoration-color: #dce4a47e;
 }
 
 strong,
@@ -167,7 +169,8 @@ h3,
 h4,
 h5,
 h6 {
-  color: #242425;
+  color: #1e164b;
+  font-weight: 200;
   font-family: "Inter", sans-serif;
 }
 
@@ -258,7 +261,9 @@ body {
 .headline-small {
   font-size: 0.8rem;
   margin-top: -40px;
-  color: #3e5876;
+  color: #4188ca;
+  font-family: "Inter", sans-serif;
+  font-weight: 200;
 }
 
 .wrapper > header {
