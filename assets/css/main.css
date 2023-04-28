@@ -409,6 +409,7 @@ img {
   background: linear-gradient(to right, #e3dec9, #c9e5e0) border-box;
   border-radius: 48px;
   border: 6px solid transparent;
+  padding-right: 18px;
   transition-duration: 0.4s;
   margin: 48px 0;
   cursor: pointer;
