@@ -374,7 +374,6 @@ img {
 @media screen and (min-width: 480px) {
   .wrapper {
     display: grid;
-    gap: 48px;
   }
 
   .one {
