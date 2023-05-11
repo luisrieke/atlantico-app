@@ -1,27 +1,24 @@
 /* Basic */
 
-html {
-  min-height: 100%;
+html,
+body {
+  height: 100%;
 }
 
 body {
   background-attachment: scroll;
   background-size: auto;
   background-position: top;
+  margin: 0;
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
 }
 
 @media screen and (max-width: 2000px) {
   html,
   body {
     min-width: 320px;
-    padding: 2% 0 2%;
-  }
-}
-
-@media screen and (min-width: 2000px) {
-  html,
-  body {
-    padding: 4% 0 4%;
   }
 }
 
@@ -96,9 +93,6 @@ p {
 }
 
 @media screen and (min-width: 480px) {
-  p {
-    margin: 0 0 2rem 0;
-  }
   .text-inner {
     padding-left: 40px;
   }
@@ -248,7 +242,12 @@ body {
 
 /* Main */
 
+#main {
+  flex: 1 0 auto;
+}
+
 #main > .inner {
+  flex: 1 0 auto;
   margin: 0 auto;
   width: 80rem;
   max-width: 90%;
@@ -413,7 +412,7 @@ img {
 /* Download Button */
 
 .buttonHome {
-  background: linear-gradient(to right, #e3dec9, #c9e5e0) border-box;
+  background: linear-gradient(to right, #261685, #1e164b) border-box;
   border-radius: 48px;
   border: 6px solid transparent;
   padding-right: 18px;
@@ -424,13 +423,13 @@ img {
   flex-direction: row;
   font-size: 1rem;
   align-items: center;
-  color: #1e164b;
+  color: #a7d1e0;
   font-weight: 200;
   font-family: "Inter", sans-serif;
 }
 
 .buttonHome:hover {
-  background: linear-gradient(to right, #c4def9, #e2e4ec) border-box;
+  background: linear-gradient(to right, #385e83, #2541b4) border-box;
 }
 
 .chrome-logo {
@@ -438,4 +437,24 @@ img {
   height: 48px;
   margin-right: 6px;
   display: block;
+}
+
+/* Footer */
+
+#footer {
+  flex-shrink: 0;
+  background-color: #1e164b;
+  color: #fff;
+  text-align: center;
+}
+
+.headline-footer {
+  font-size: 0.8rem;
+  color: #4188ca;
+  font-family: "Inter", sans-serif;
+  font-weight: 200;
+}
+
+.headline-footer > a {
+  text-decoration: none;
 }
