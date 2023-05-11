@@ -430,7 +430,7 @@ img {
   display: block;
 }
 
-.buttonPictures {
+.infoButton {
   background: linear-gradient(to right, #261685, #1e164b) border-box;
   border-radius: 48px;
   border: 6px solid transparent;
@@ -444,9 +444,10 @@ img {
   color: #a7d1e0;
   font-weight: 200;
   font-family: "Inter", sans-serif;
+  margin-left: 18px;
 }
 
-.buttonPictures:hover {
+.infoButton:hover {
   background: linear-gradient(to right, #385e83, #2541b4) border-box;
 }
 
