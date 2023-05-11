@@ -254,6 +254,7 @@ body {
   width: 80rem;
   max-width: 90%;
   margin-bottom: 2rem;
+  margin-top: 4rem;
   text-align: center;
   font-size: 2rem;
 }
@@ -402,8 +403,6 @@ img {
   background: linear-gradient(to right, #c4def9, #e2e4ec) border-box;
 }
 
-/* Download Button */
-
 .buttonHome {
   background: linear-gradient(to right, #261685, #1e164b) border-box;
   border-radius: 48px;
@@ -430,6 +429,26 @@ img {
   height: 48px;
   margin-right: 6px;
   display: block;
+}
+
+.buttonPictures {
+  background: linear-gradient(to right, #261685, #1e164b) border-box;
+  border-radius: 48px;
+  border: 6px solid transparent;
+  padding-right: 18px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  display: flex;
+  flex-direction: row;
+  font-size: 1rem;
+  align-items: center;
+  color: #a7d1e0;
+  font-weight: 200;
+  font-family: "Inter", sans-serif;
+}
+
+.buttonPictures:hover {
+  background: linear-gradient(to right, #385e83, #2541b4) border-box;
 }
 
 /* Footer */
