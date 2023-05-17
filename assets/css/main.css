@@ -379,6 +379,7 @@ img {
   .one {
     grid-column: 1 / 2;
     grid-row: 1;
+    padding-right: 24px;
   }
 
   .two {
